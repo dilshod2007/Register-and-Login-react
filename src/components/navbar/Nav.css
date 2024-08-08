@@ -1,0 +1,49 @@
+/* Style for the navigation bar */
+.nav{
+    width: 100%; /* Full width of the container */
+    max-width: 1200px; /* Optional: limit the maximum width */
+    margin: 0 auto; /* Center the navbar horizontally */
+    padding: 10px; /* Padding inside the navbar */
+    background-color: #333; /* Dark background color for the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for depth */
+    display: flex; /* Flexbox for aligning items */
+    justify-content: center; /* Center-align the content */
+   /* width: 1540px; */
+   border-radius: 10px;
+   /* background: linear-gradient(chocolate,red); */background-color: rgb(4, 39, 92);
+
+
+   
+}
+
+/* Style for the navigation list */
+.nav-list {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Flexbox for horizontal layout */
+    gap: 20px; /* Space between links */
+}
+
+/* Style for individual navigation items */
+.nav-item {
+    display: inline; /* Inline display for list items */
+    display: flex;
+    gap: 100px;
+}
+
+/* Style for navigation links */
+.nav-link {
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size for the links */
+    padding: 10px 15px; /* Padding around the links */
+    border-radius: 4px; /* Rounded corners for links */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for navigation links */
+.nav-link:hover {
+    background-color: yellowgreen; /* Darker background color on hover */
+    color: #2033d8; /* Keep text color white on hover */
+}

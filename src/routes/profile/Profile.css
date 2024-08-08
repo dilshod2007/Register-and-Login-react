@@ -1,0 +1,70 @@
+
+/* Profile container styles */
+.profile {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center align items horizontally */
+    padding: 20px;         /* Add padding around the content */
+    max-width: 400px;      /* Set a maximum width for the profile section */
+    margin: 0 auto;        /* Center the profile container horizontally */
+    background-color: #fff; /* White background for the profile section */
+    border-radius: 10px;   /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    text-align: center;    /* Center align text */
+    margin-top: 100px;
+    background: linear-gradient(#333,red,yellow);
+  }
+  
+  /* Profile avatar styles */
+  .profile-avatar {
+    width: 150px;           /* Set a fixed width for the avatar */
+    height: 150px;          /* Set a fixed height for the avatar */
+    border-radius: 50%;     /* Make the avatar circular */
+    object-fit: cover;      /* Ensure the image covers the area without distortion */
+    margin-bottom: 15px;  
+
+  }
+  .profile {
+    width: 350px; /* Set the desired width of the profile container */
+    margin: 0 auto; /* Center the container horizontally */
+    height: 240px;
+    padding: 20px; /* Add padding inside the container */
+    border: 1px solid #ddd; /* Optional: add a light border */
+    border-radius: 8px; /* Optional: rounded corners */
+    text-align: center; /* Center align text and image */
+    background-color: #f9f9f9; /* Optional: background color */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for depth */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    margin-top: 100px;
+   background-size: cover;
+
+}
+  .profile:hover {
+    transform: scale(1.05); /* Slightly scale up the container on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+  .profile img {
+    width: 100px; /* Set a fixed width for the avatar image */
+    height: 100px; /* Set a fixed height for the avatar image */
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    margin-bottom: 10px; /* Space between the image and text */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+  .profile img:hover {
+    transform: scale(1.1); /* Slightly scale up the image on hover */
+}
+  
+  /* Name styles */
+  .name {
+    font-size: 24px;        /* Set font size */
+    color: #333;            /* Dark color for the name */
+    margin-bottom: 10px;   /* Add space below the name */
+  }
+  
+  /* Email styles */
+  .email {
+    font-size: 18px;        /* Set font size */
+    color: #555;            /* Slightly lighter color for the email */
+  }
+  
